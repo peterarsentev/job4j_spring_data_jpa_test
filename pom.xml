@@ -5,14 +5,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.0</version>
+        <version>3.3.0</version>
         <relativePath/>
     </parent>
     <groupId>ru.job4j</groupId>
     <artifactId>job4j_spring_data_jpa_test</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>job4j_spring_data_jpa_test</name>
-    <description>Spring Data JPA Repository Query example in Spring Boot</description>
 
     <properties>
         <java.version>17</java.version>
@@ -40,7 +39,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.7.0</version>
+            <version>5.10.2</version>
             <scope>test</scope>
             <exclusions>
                 <exclusion>
@@ -52,7 +51,7 @@
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
-            <version>5.7.0</version>
+            <version>5.10.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
